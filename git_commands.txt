@@ -1,0 +1,44 @@
+# Initialize repository
+git init
+
+# Check repository status
+git status
+
+# Stage all files
+git add .
+
+# Stage a single file
+git add filename
+
+# Commit changes
+git commit -m "Initial Commit"
+
+# Connect GitHub repository
+git remote add origin <repository-url>
+
+# Rename branch
+git branch -M main
+
+# Push repository
+git push -u origin main
+
+# Pull latest changes
+git pull
+
+# View commit history
+git log
+
+# Check differences
+git diff
+
+# List branches
+git branch
+
+# Create new branch
+git checkout -b feature-branch
+
+# Switch branch
+git checkout main
+
+# Merge branch
+git merge feature-branch
