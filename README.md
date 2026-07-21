@@ -1,230 +1,122 @@
+# DevOps Industrial Training Projects
+
 ## Project Overview
 
-This repository contains the implementation of **DecodeLabs Industrial Training - DevOps Project 2 and Project 3**.
+This repository contains the implementation of the first three DevOps projects from the **DecodeLabs Industrial Training Program (Batch 2026)**.
 
-The objective of these projects is to understand the fundamentals of **Git Version Control** and **Continuous Integration/Continuous Deployment (CI/CD)** using **GitHub Actions**.
-
-Project 2 focuses on managing source code using Git and GitHub, while Project 3 demonstrates how to automate software workflows whenever code is pushed to a GitHub repository.
+These projects provide a strong foundation in Linux, Version Control using Git, and Continuous Integration (CI) using GitHub Actions.
 
 ---
 
-# Project Objectives
+# Projects Included
+
+## Project 1 – Linux & Command Line Basics
+
+Learn the fundamentals of Linux and perform file and directory operations using the command line.
+
+### Objectives
+
+- Learn Linux fundamentals
+- Understand Linux directory structure
+- Practice basic Linux commands
+- Create, move, copy, rename and delete files
+- Understand file permissions
+
+---
 
 ## Project 2 – Version Control with Git
 
+Learn how Git tracks changes and manages project versions.
+
+### Objectives
+
 - Initialize a Git repository
-- Track file changes
 - Stage project files
-- Create commits
-- Connect a local repository to GitHub
-- Push changes to a remote repository
-- Understand the Git workflow
+- Commit changes
+- Connect to GitHub
+- Push code to a remote repository
+- Understand Git workflow
+
+---
 
 ## Project 3 – CI/CD Pipeline Basics
 
-- Understand CI/CD concepts
+Learn how to automate project execution using GitHub Actions.
+
+### Objectives
+
+- Understand Continuous Integration
+- Understand Continuous Deployment concepts
 - Create a GitHub Actions workflow
-- Automate project execution on every push
+- Automate project execution
 - Learn pipeline stages
-- Understand workflow automation
 
 ---
 
 # Tools Used
 
+- Linux / Ubuntu / WSL
 - Git
 - GitHub
 - GitHub Actions
+- Python
 - Visual Studio Code
-- Python 3.13
-- Windows Command Prompt
 
 ---
 
-# Repository Structure
+# Skills Learned
 
-```
-DevOps-Projects/
-│
-├── README.md
-├── .gitignore
-├── app.py
-├── requirements.txt
-├── git_commands.txt
-├── workflow.md
-├── git_cheatsheet.md
-├── ci_cd_concepts.md
-├── pipeline_workflow.md
-└── .github/
-    └── workflows/
-        └── python-ci.yml
-```
+### Project 1
 
----
+- Linux Fundamentals
+- Terminal Navigation
+- File Management
+- Directory Structure
+- Linux Commands
+- File Permissions
 
-# Project 2 - Git Workflow
+### Project 2
 
-Git helps developers keep track of every change made to a project.
-
-Workflow:
-
-```
-Working Directory
-        │
-        ▼
-git add
-        │
-        ▼
-Staging Area
-        │
-        ▼
-git commit
-        │
-        ▼
-Local Repository
-        │
-        ▼
-git push
-        │
-        ▼
-GitHub Repository
-```
-
----
-
-# Project 3 - CI/CD Workflow
-
-GitHub Actions automatically executes a workflow whenever code is pushed to GitHub.
-
-Workflow:
-
-```
-Developer
-     │
-     ▼
-git push
-     │
-     ▼
-GitHub Repository
-     │
-     ▼
-GitHub Actions Triggered
-     │
-     ▼
-Checkout Repository
-     │
-     ▼
-Setup Python
-     │
-     ▼
-Install Dependencies
-     │
-     ▼
-Run Python Program
-     │
-     ▼
-Workflow Completed Successfully
-```
-
----
-
-# GitHub Actions Pipeline
-
-The workflow is stored inside:
-
-```
-.github/workflows/python-ci.yml
-```
-
-Whenever code is pushed to the **main** branch, GitHub automatically:
-
-1. Checks out the repository
-2. Creates an Ubuntu runner
-3. Installs Python
-4. Installs project dependencies
-5. Executes the Python application
-6. Reports Success or Failure
-
----
-
-# Git Commands Used
-
-| Command | Description |
-|----------|-------------|
-| git init | Initialize Git repository |
-| git status | Check repository status |
-| git add . | Stage all files |
-| git commit -m "message" | Save project snapshot |
-| git log | View commit history |
-| git remote add origin URL | Connect GitHub repository |
-| git branch -M main | Rename default branch |
-| git push -u origin main | Upload repository |
-| git pull | Download latest changes |
-| git diff | Compare file changes |
-
----
-
-# CI/CD Concepts Learned
-
-- DevOps
+- Git Basics
 - Version Control
+- Git Workflow
+- Repository Management
+- GitHub Integration
+
+### Project 3
+
 - Continuous Integration (CI)
-- Continuous Delivery (CD)
-- Continuous Deployment
+- Continuous Deployment (CD) Concepts
 - GitHub Actions
-- Workflow
-- Jobs
-- Steps
-- Runners
-- Pipeline Automation
+- Workflow Automation
+- Pipeline Stages
+- YAML Configuration
 
 ---
 
 # Learning Outcomes
 
-After completing these projects, I learned:
+After completing these projects, I gained practical knowledge in:
 
-### Git
-
-- Repository creation
-- Tracking file changes
-- Staging files
-- Creating commits
-- Managing GitHub repositories
-- Version control workflow
-
-### CI/CD
-
-- Creating GitHub Actions workflows
-- Understanding YAML configuration
-- Running automated workflows
-- Pipeline stages
-- Automation using GitHub Actions
-- Continuous Integration concepts
+- Linux command-line operations
+- Git version control
+- GitHub repository management
+- CI/CD fundamentals
+- GitHub Actions automation
+- Software development workflow
+- DevOps fundamentals
 
 ---
 
-# Project Outcome
+# Future Learning
 
-Successfully implemented:
-
-- Git Version Control
-- GitHub Repository Management
-- GitHub Actions Workflow
-- Automated Python Execution
-- Continuous Integration Pipeline
-
-The workflow executes automatically whenever code is pushed to the repository.
-
----
-
-# Future Improvements
-
-- Add automated testing using PyTest
-- Integrate code quality checks (Linting)
-- Deploy application automatically
-- Add Docker support
-- Integrate cloud deployment
+- Shell Scripting
+- Docker
+- Kubernetes
+- Jenkins
+- AWS
+- Terraform
+- Monitoring & Logging
 
 ---
 
@@ -234,6 +126,10 @@ The workflow executes automatically whenever code is pushed to the repository.
 
 **Training Program:** DecodeLabs Industrial Training
 
-**Projects:**
+**Projects Included:**
+
+- Project 1 – Linux & Command Line Basics
 - Project 2 – Version Control with Git
 - Project 3 – CI/CD Pipeline Basics
+
+**Batch:** 2026
